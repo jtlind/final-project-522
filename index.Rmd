@@ -1,0 +1,24 @@
+
+---
+title: "Introduction"
+---
+
+In recent years, there has been an explosion of research regarding people’s decision making behaviors and the contextual factors that contribute to such decisions. This has led to the identification of systematic cognitive biases in decision making such as “the framing effect,” by which an individual’s decision making tends to be based on the way in which a decision or its potential outcomes are presented (Tversky & Kahneman, 1981). Additionally, individual factors such as self-control depletion have been suggested to play a role in decision making behaviors (Baumeister et al., 2007). Biases and individual factors have been shown to influence behaviors in many areas of decision making. 
+
+One area of interest for scholars has been that of behavioral ethics. Many researchers have sought to understand what leads individuals to engage in immoral behaviors such as cheating and lying. Studies have been able to identify contextual factors and circumstances that lead individuals to engage in higher rates of cheating and lying. In line with other areas of decision making, systematic biases and contextual factors have been shown to lead to more or less cheating in different situations. Research conducted by Grolleau et al., (2016) suggests that people are more likely to cheat when faced with a loss than when faced with a gain. Alternatively, results from a study conducted by Mead et al., (2009) found that self-control depletion led to an increase in cheating behaviors.
+
+Interestingly, little research has been conducted to evaluate the compound effect of biases with individual factors on decision making.  For example, little is known about how individuals make choices when they are depleted of self-control and faced with differently framed choices. Rather, the literature typically focuses on one factor at a time in isolation. This makes sense from an experimental practicality standpoint, but does not capture the full picture of how decisions are made in the real world. People often face multiple competing influences at once when they are making a decision. Understanding how competing heuristics, influences, and biases are resolved provides some insight on decision maker’s cognitive processes. It is possible that these influences may be compounding, leading to more reliance on heuristics or biases to make decisions. Alternatively, the presence of multiple factors may lead to one factor being more dominant than the others. For example, does being tired override loss aversion and make decision makers more conservative when faced with a loss? Studies are needed to understand how situations like this will be resolved in the mind of the decision maker and what implications this has for decisions ranging from consumer behavior to policy. 
+
+The purpose of the current study was to evaluate cheating behaviors in a context where participants are both depleted of their self-control and compensation is framed as either a gain or a loss. Participants took an online study conducted in the field in different locations across the University of Pennsylvania campus. They were randomly assigned to one of four conditions: depleted_loss, depleted_gain, non-depleted_loss, and non-depleted_gain. Those in the depletion conditions completed a self-control task while those in the non-depleted conditions completed a control task. After this task, everyone completed a matrices task where they were presented with 10 matrices and had 20 seconds to find the two numbers that added to exactly 10. Those in the loss frame were given 10 tickets in an envelope and told they had to return one ticket for each matrix they solved incorrectly. Those in the gain frame were told that they earned one ticket for each correct matrix they solved. After the matrices task, participants received feedback on how they did and were told to self-administer their rewards, presenting them with the opportunity to misreport how well they did by taking (or keeping) more tickets than they earned. 
+
+Based on the prior literature, we hypothesized the following:
+
+*Hypothesis 1*
+Regardless of gain/loss framing, participants depleted of self-control will cheat more, on average, than non-depleted participants.
+
+*Hypothesis 2*
+Loss framing will lead to more cheating relative to gain framing, regardless of self-control depletion or lack thereof.
+
+*Hypothesis 3*
+The average rate/amount of cheating demonstrated will be greatest for participants who are depleted of self-control and operating under a loss frame.
+

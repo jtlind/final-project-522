@@ -1,0 +1,25 @@
+
+---
+title: "Results"
+---
+
+We started by looking at the main treatment effects. We did not find a significant difference in the occurrence of cheating between depleted and non-depleted participants (two-sided Mann-Whitney U test; p = 0.997). We also did not find a significant difference between gain and loss framing (two-sided Mann-Whitney U test; p = 0.468). Proportion tests also confirmed these findings, with no statistically significant difference in cheating between depleted and non-depleted participants (p = 1) and between gain and loss framing (p = 0.638). 
+
+```{r, echo = F}
+barplot(cheating_percent, main="Frequency of Cheating Behavior",
+        xlab="Condition", col=c("darkblue","red","green","purple"), cex.names = 0.8, names.arg = c("Depleted Gain","Depleted Loss","Non-Depleted Gain","Non-Depleted Loss"))
+```
+
+Next, we looked at the interaction effect between depletion and framing and identified that there was no statistically significant difference in the occurrence of cheating across the four treatment groups (Kruskal-Wallis test; p = 0.893).
+
+For those who cheated, we were interested in investigating whether depletion and framing had effects on the magnitude of cheating. We measured the magnitude of cheating as the difference between the self-reported number of correctly solved matrices and the actual number of correctly solved matrices. It is worth nothing that only 17 participants (out of 132 participants) displayed cheating behavior; thus limiting the power of our analysis for this dependent variable. 
+
+Similar to DV1, we started by looking at the main treatment effects. We did not find a significant difference in the amount of cheating between depleted and non-depleted participants or between those in the gain and loss frames. 
+
+Next, we looked at the interaction effect of depletion and framing on the magnitude of cheating and found a statistically significant difference in the occurrence of cheating across the four treatment groups (Kruskal-Wallis test; p = 0.034). The magnitude of cheating was the largest for non-depleted participants in loss framing; however, this finding is heavily influenced by a single outlier.  It is difficult to say whether this participant was simply the only individual who displayed substantial cheating behavior, or if they did not fully understand the instructions. Nonetheless, due to the small sample size, and limited power, we do not put much emphasis on this significant finding. 
+
+Although we did not find any significant results (with sufficient power), we still ran a regression model that allows us to add controls. We first looked at gender effects as past literature has, in some cases, identified gender differences as it relates to cheating behavior (Tibbetts, 1997; Whitley, Nelson, & Jones, 1999). Data was coded “1” for males and “0” for females. We also discussed the efficacy for controlling for math affinity since those who are better at math might be able to solve more matrices. However, considering our dependent variable of interest is the difference between the self-reported number of correctly solved matrices and the actual number, not the actual number of correctly solved matrices, we decided against it. Hence, we utilized the linear probability model (binomial regression model) to test whether either of the two independent variables (gain/loss framing and depletion) or their interaction has a statistically significant effect on DV1. 
+
+```{r, echo = F}
+summary(glm(final_data$cheated~factor(final_data$gender)*factor(final_data$depleted)*factor(final_data$gain_frame), family='binomial'))
+```

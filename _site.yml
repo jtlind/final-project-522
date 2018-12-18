@@ -1,0 +1,13 @@
+name: "522_final_project"
+output_dir: "."
+navbar:
+  title: "The Effects of Self-Control Depletion and Framing on Cheating Behavior"
+  left:
+    - text: "Introduction"
+      href: index.html
+    - text: "Data and Methods"
+      href: data.html
+    - text: "Results"
+      href: results.html
+    - text: "Conclusion"
+      href: conclusion.html

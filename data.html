@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Data and Methods</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">The Effects of Self-Control Depletion and Framing on Cheating Behavior</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Introduction</a>
+</li>
+<li>
+  <a href="data.html">Data and Methods</a>
+</li>
+<li>
+  <a href="results.html">Results</a>
+</li>
+<li>
+  <a href="conclusion.html">Conclusion</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Data and Methods</h1>
+
+</div>
+
+
+<p>Our research team recruited 132 participants from across the University of Pennsylvania between November 14th and November 30th. Originally we planned to recruit primarily from the University of Pennsylvania’s freshman quadrangle due to its convenient nature and concentration of potential participants. However, after exhausting the potential participants in this area, we decided to expand our experiment to other recruitment locations. Therefore, in addition to the freshmen dorms, we also conducted the experiment in study rooms at Van Pelt Library, open study areas in Houston Hall and Arch Cafe, and a reserved room in Claudia Cohen Hall. See the table below for a complete breakdown of participants based on recruitment location.</p>
+<p><img src="data_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>We recruited participants primarily through face-to-face solicitation methods. Recruitment and subsequent participation occurred on multiple weekdays and at a variety of times (e.g. morning, afternoon, and evening) in order to control for any potential day-of-week or time-of-day effects. We chose not to run the experiment on weekends, as we believed participant availability would be limited on weekends. More importantly, we hypothesized that student participants are likely to make different choices on weekends relative to weekdays (for example, weekend hangover effects could confound our results by mimicking a state of cognitive depletion).</p>
+<p>Ultimately, we ended up recruiting 132 students from all colleges and a variety of graduate schools at the University of Pennsylvania (64% female; mean age = 20.29; 50% freshman, 25% graduate students). Although our data collection process took place at different locations across campus, the demographic characteristics of our sample are consistent across these locations.</p>
+<p><strong>Independent variables</strong></p>
+<p>Our two independent variables of interest were depletion (whether participants are depleted or not) and framing (whether participants are in a loss or gain frame). Additionally, we were also interested in identifying whether there was an interaction effect between these two variables.</p>
+<p><strong>Dependent variables</strong></p>
+<p>In order to measure the degree of cheating behavior in the various treatments, we focused on two dependent variables of interest. The first dependent variable (DV1) is the binary choice of cheating versus not cheating. Participants were considered to have cheated if the self-reported number of correctly solved matrices was higher than the actual number of correctly solved matrices (calculated by researchers after the experiment). These observations were coded “1” for the binary variable cheating. Conversely, participants were coded “0” if there was no difference or a negative difference between the self-reported number of correctly solved matrices and the actual number of correctly solved matrices. Our second dependent variable (DV2) measured the magnitude of cheating, represented by the stated performance, which again was the difference between the reported number of completed matrices and the actual number of completed matrices.</p>
+<p>For our analysis, we used nonparametric tests because they do not require any specific form for the distribution of the population from which the sample comes from. This is a safe choice with our smaller sample size and unknown population parameters. Moreover, our data might be skewed with overrepresented observations with the value “0”; non-parametric tests take care of this concern. We used a Mann-Whitney U test to analyze the main treatment effects between the two groups and a Kruskal Wallis test to examine the interaction effect within all four treatment groups.</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

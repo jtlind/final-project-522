@@ -1,0 +1,6 @@
+final_data<-read.csv("final_data.csv")
+anova<-aov(final_data$amt_cheat~final_data$Depletion*final_data$Framing)
+summary(anova)
+logistic<-glm(final_data$cheated~final_data$Depletion*final_data$Framing)
+summary(logistic)
+matrix(final_data$Depletion,final_data$Framing)
