@@ -27,3 +27,21 @@ Despite not supporting all of our main hypotheses, these findings offer several 
 
 We hope that this analysis has contributed to the understanding of the impacts of framing effects and self-control depletion on cheating behavior and, based on our lessons learned, serves as a useful roadmap for further research.
 
+**Works Cited**
+
+Baumeister, R. F., Vohs, K. D., & Tice, D. M. (2007). The strength model of self-control. Current directions in psychological science,16(6), 351-355.
+
+Grolleau, G., Kocher, M. G., & Sutan, A. (2016). Cheating and loss aversion: Do people cheat more to avoid a loss?. Management Science, 62(12), 3428-3438.
+
+Mead, N. L., Baumeister, R. F., Gino, F., Schweitzer, M. E., & Ariely, D. (2009). Too tired to tell the truth: Self-control resource depletion and dishonesty. Journal of experimental social psychology, 45(3), 594-597.
+
+Shiv, B., Fedorikhin, A. (1999). Heart and Mind in Conflict: The Interplay of Affect and Cognitive in Consumer Decision Making. Journal of Consumer Research, 26(3), 278-292. 
+
+Tibbetts, S. G. (1997). Gender differences in students’ rational decisions to cheat. Deviant Behavior, 18(4), 393-414.
+
+Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. science, 211(4481), 453-458.
+
+Van't Veer, A., Stel, M., & van Beest, I. (2014). Limited capacity to lie: Cognitive load interferes with being dishonest. Judgement and Decision Making, 9(3), 199-206.
+
+Whitley, B. E., Nelson, A. B., & Jones, C. J. (1999). Gender differences in cheating attitudes and classroom cheating behavior: A meta-analysis. Sex Roles, 41(9-10), 657-680.
+
